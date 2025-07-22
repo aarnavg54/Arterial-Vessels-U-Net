@@ -16,6 +16,6 @@ All training and model development were completed using the following tools and 
 - Keras’s API within TensorFlow 2.18.0 for the U-Net's architecture 
 - scikit-image, OpenCV2, and PIL for image preprocessing
 - Matplotlib 3.10.0 and Seaborn 0.13.2 for data visualizations
-- NumPy and scikit-learn for numerical computations
-- scipy.stats, scikit_posthocs, and pingouin for statistical analyses
+- NumPy 2.02 for numerical computations
+- scipy 1.15.3, scikit_posthocs 0.11.4, and pingouin 0.5.5 for statistical analyses
  
