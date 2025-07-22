@@ -17,5 +17,5 @@ All training and model development were completed using the following tools and 
 - scikit-image, OpenCV2, and PIL for image preprocessing
 - Matplotlib 3.10.0 and Seaborn 0.13.2 for data visualizations
 - NumPy and scikit-learn for numerical computations
-- scipy, statsmodels, and pingouin for statistical analyses
+- scipy.stats, scikit_posthocs, and pingouin for statistical analyses
  
