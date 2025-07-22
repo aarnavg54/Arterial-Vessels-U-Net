@@ -13,8 +13,8 @@ Sinitca, Aleksandr M., et al. “Microscopy Image Dataset for Deep Learning-Base
 
 All training and model development were completed using the following tools and libraries: 
 - Google Colab using Python 3.11.13 for most training and model development 
-- Keras’s API within TensorFlow 2.18.0 for the U-Net's architecture 
-- cv2 4.11.0, and PIL 11.2.1 for image preprocessing
+- Keras’s API within TensorFlow 2.18.0 and Scikit-learn: 1.6.1 for the U-Net's architecture 
+- Scikit-image 0.25.2, cv2 4.11.0, and PIL 11.2.1 for image preprocessing
 - Matplotlib 3.10.0 and Seaborn 0.13.2 for data visualizations
 - NumPy 2.02 and Pandas 2.2.2 for numerical computations
 - Scipy 1.15.3, Scikit_posthocs 0.11.4, and Pingouin 0.5.5 for statistical analyses
