@@ -2,6 +2,11 @@
 
 This repository contains all the code for our paper "Investigating the impact of pulmonary arterial vessel diameter on U-Net segmentation accuracy during early-stage training." It includes the U-Net architecture, statistical analysis tests, and figures. The paper is currently under review for publication.
 
+
+
+![Alt text](Figures/U-Net_Figure.png)
+
+
 **Abstract**
 
 Deep learning models have significantly advanced the field of medical image segmentation. Despite this progress, **pulmonary arterial vessels** are difficult to segment due to their intricate structures and subtle features. Studies have shown that understanding how specific image characteristics influence model performance can optimize segmentation accuracy. Thus, we sought to investigate the relationship between **arterial vessel diameter** and **segmentation accuracy** during early-stage model training. We hypothesized a positive correlation between the two variables because larger vessels tend to stand out more with their highly differentiable boundaries compared to smaller ones. Here, we trained and fine-tuned a U-Net model to segment the arterial vessels from **609 histology slides** of male Wistar rats with idiopathic pulmonary arterial hypertension (**iPAH**) and chronic thromboembolic pulmonary hypertension (**CTEPH**). We evaluated its performance based on two accuracy measures: intersection over union (**IoU**) and dice similarity coefficient (**DSC**). We categorized the diameter sizes into three groups (small, medium, and large) and found statistically significant (**p < 0.05**) differences among their respective outcomes. Ultimately, we discovered a **moderate positive correlation** between diameter and segmentation performance. That is, large vessels were typically segmented with greater accuracy than small and medium ones. Our findings provide novel insight into the structural effects of arterial vessels on U-Net performance. Moreover, this approach can be altered to suit applications in various other fields to understand training dynamics.
