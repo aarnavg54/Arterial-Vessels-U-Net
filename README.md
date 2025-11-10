@@ -1,6 +1,6 @@
-# Arterial-Vessels-U-Net
+# Arterial Vessels U-Net
 
-This repository contains all the code for our paper "Investigating the impact of pulmonary arterial vessel diameter on U-Net segmentation accuracy during early-stage training." It includes the U-Net architecture, statistical analysis tests, and figures.
+This repository contains all the code for our paper "Investigating the impact of pulmonary arterial vessel diameter on U-Net segmentation accuracy during early-stage training." It includes the U-Net architecture, statistical analysis tests, and figures. The paper is currently under review.
 
 **Abstract**
 
